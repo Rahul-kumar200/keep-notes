@@ -1,0 +1,50 @@
+.input_container{
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.main_note{
+    display: flex;
+    flex-direction: column;
+    width: 600px;
+    border:none;
+    border-radius: 20px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.note_Title{
+    border: none;
+    font-size: 23px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    outline: none;
+    margin: 11px 4px 0px 10px ;
+}
+
+.note_textarea{
+    border: none;
+    font-family:'Times New Roman', Times, serif;
+    margin: 17px 4px 5px 10px;
+    font-size: 16px;
+    outline: none;
+}
+
+.create_note{
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    height: 50px;
+    width: 50px;
+    border: none;
+    border-radius: 15px;
+    color: orange;
+    font-size: 40px;
+    left: 510px;
+    position: relative;
+    bottom: -20px;
+}
+
+.create_note:hover{
+    background-color: rgb(240, 170, 19);
+    color: white;
+  
+}

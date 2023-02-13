@@ -1,0 +1,19 @@
+.header{
+    height: 100px;
+    width: 100%;
+    background-color: rgb(241, 194, 25);
+    display: flex;
+    align-items: center;
+}
+
+.logo{
+    display: inline-block;
+    margin-left: 70px;
+}
+
+.logo_name{
+    color:white;
+    display: inline-block;
+    font-size: 40px;
+    margin-left: 20px;
+}

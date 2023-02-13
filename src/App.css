@@ -1,0 +1,10 @@
+body{
+  margin :0px;
+}
+
+.task_container{
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 35px;
+  /* background-color: green; */
+}
